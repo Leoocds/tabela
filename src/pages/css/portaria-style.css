@@ -1,0 +1,88 @@
+.container-portaria{
+  margin: auto;
+  background: #FFF;
+  backdrop-filter: blur(2px); 
+  min-height: 85vh;
+  max-width: 400px;
+  width: 100%;
+}
+
+.line-portaria{
+  display: flex;
+  justify-content: center;
+}
+
+.col-registrar-entrada, .col-registrar-saida, .col-registrar-cae{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.button-entrada{
+    width: 250px;
+    background: #14F500;
+    padding: 1rem;
+    border-radius: 0.3rem;
+    border: none;
+    overflow: hidden;
+    font-weight: 500;
+    color: white;
+    margin: 30px ;
+    cursor: pointer;
+  }
+  .button-entrada:hover{
+    background-color: #11c001;
+    box-shadow: 0px 4px 7px 0px rgba(160,160,160,0.25)
+  }
+  .button-saida{
+    width: 250px;
+    background: #FF0202;
+    padding: 1rem;
+    border-radius: 0.3rem;
+    border: none;
+    overflow: hidden;
+    font-weight: 500;
+    color: white;
+    margin: 30px ;
+    cursor: pointer;
+
+  }
+  .button-saida:hover{
+    background-color: #ba0202;
+    box-shadow: 0px 4px 7px 0px rgba(160,160,160,0.25)
+  }
+
+  .button-cae{
+    width: 250px;
+    background: #00EE99;
+    padding: 1rem;
+    border-radius: 0.40rem;
+    border: none;
+    overflow: hidden;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    text-decoration-color: #ffffff;
+    margin: 30px;
+    cursor: pointer;
+  }
+  .button-cae:hover{
+    background-color: #02b677;
+    box-shadow: 0px 4px 7px 0px rgba(160,160,160,0.25)
+  }
+
+ 
+  @media only screen and (max-width: 1024px) {
+  
+    .button-entrada, .button-saida, .button-cae{
+       font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+
+  .logoif{
+      width: 100px;
+      height: 120px;
+  }
+}
